@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1>HOME</h1>
+                <h1 id="home-el" class="board"> 0 </h1>
+                
+                <div id="home-btn" class="btn">
+                    <button id ="home1Btn" onclick="home1Increment()">+1</button>
+                    <button id ="home2Btn" onclick="home2Increment()">+2</button>
+                    <button id ="home3Btn" onclick="home3Increment()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h1>GUEST</h1>
+                <h1 id ="guest-el" class="board"> 0 </h1>
+                <div id="guest-btn" class="btn">
+                    <button id ="guest1Btn" onclick="guest1Increment()">+1</button>
+                    <button id ="guest2Btn" onclick="guest2Increment()">+2</button>
+                    <button id ="guest3Btn" onclick="guest3Increment()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
